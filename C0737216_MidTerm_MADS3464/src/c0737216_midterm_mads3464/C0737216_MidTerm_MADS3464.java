@@ -15,14 +15,16 @@ public class C0737216_MidTerm_MADS3464 {
     StringBuilder sb=new StringBuilder(str);  
     sb.reverse();  
     return sb.toString();  
+    
+    
 }  
     public static void main(String[] args) {
-        LambtonStringTools l1= new LambtonStringTools();
-        l1.getDecimal(1010);
+        /*String s1 = "the dog jumped over the fence";
+    String s2 ="the";
+    String s3 ="that";
+    String replaceString=s1.replace(s2,s3);
+    System.out.println(replaceString);*/
         
-        l1.getDecimal(10101);
-        l1.getDecimal(11111);
-        System.out.println();
        
           
     System.out.println(C0737216_MidTerm_MADS3464.reverseString("Lambton")); 
